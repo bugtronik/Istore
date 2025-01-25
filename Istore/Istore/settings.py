@@ -75,11 +75,11 @@ WSGI_APPLICATION = 'Istore.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'istore',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'USER': 'admindjango',
+        'HOST': 'localhost',
+        'PORT': '5432',
+        'USER': 'postgres',
         'PASSWORD': 'Linuxgnu@2034!',
     }
 }
